@@ -1,0 +1,311 @@
+h1,
+h2,
+h3 {
+  font-family: "CoFo Kak Trial";
+}
+body {
+  font-family: "PTSans-Regular";
+  background-color: rgb(63, 14, 14);
+  color: rgb(254, 226, 43);
+}
+h1 {
+  margin: 50px auto;
+}
+h2 {
+  margin: 40px auto;
+  margin-top: 120px;
+  font-size: 50px;
+  line-height: 56px;
+}
+h3 {
+  margin: 36px auto;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+img,
+hr {
+  width: 100%;
+  display: block;
+}
+
+hr {
+  border-bottom: none;
+  border-top: 1px solid rgb(254, 226, 43);
+  margin: 40px auto;
+}
+
+li {
+  margin: 20px 0;
+  margin-left: 20px;
+}
+ul li {
+  list-style-type: square;
+}
+
+.hr-niz {
+  margin-top: 140px;
+}
+
+.zagolovok {
+  text-align: center;
+}
+.zagolovok h1 {
+  margin-top: 70px;
+  font-size: 96px;
+}
+.zagolovok p {
+  font-size: 22px;
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+.zagolovok img {
+  height: 700px;
+  object-fit: cover;
+}
+
+.opisanie {
+  display: flex;
+  align-items: center;
+  margin-top: 120px;
+}
+.opisanie img {
+  width: 33%;
+  height: 800px;
+  object-fit: cover;
+}
+.opisanie-text {
+  width: 34%;
+  text-align: center;
+}
+.opisanie-text p {
+  padding: 0 20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.istoria {
+  margin-top: 160px;
+  text-align: center;
+}
+
+.istoria1 {
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+  margin: 40px auto;
+}
+.istoria1 div {
+  width: 330px;
+  font-size: 18px;
+}
+.istoria1 h3 {
+  font-size: 33px;
+}
+.istoria1 p {
+  min-height: 90px;
+}
+
+.filosofia {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.filosofia-kadry {
+  display: flex;
+  width: 1024px;
+  margin: 60px auto;
+}
+.filosofia-kadry img {
+  width: 25%;
+  height: 220px;
+  object-fit: cover;
+}
+.filosofia-text {
+  width: 700px;
+  margin: 0 auto;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.kvartet {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.kvartet-item {
+  display: flex;
+  margin: 40px auto;
+  width: 900px;
+  align-items: center;
+}
+.kvartet-item img {
+  width: 320px;
+  height: 220px;
+}
+.kvartet-text h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 33px;
+}
+
+.kvartet-text {
+  width: 300px;
+  font-size: 24px;
+}
+.kvartet-item-right img {
+  margin-left: 300px;
+}
+
+.nagradi {
+  display: flex;
+  margin: 120px auto;
+  align-items: center;
+}
+.nagradi img {
+  height: 800px;
+  width: 35%;
+}
+.nagradi-text {
+  width: 64%;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-left: auto;
+}
+
+.menu {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.menu-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 1024px;
+  margin: 20px auto;
+}
+.menu-cards img {
+  transition: transform 0.3s;
+  width: 330px;
+  height: 440px;
+}
+.menu-cards img:hover {
+  transform: scale(1.05);
+}
+.bar-menu {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.programmy {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.programmy-line {
+  display: flex;
+  justify-content: space-between;
+  width: 1024px;
+  margin: 60px auto;
+}
+.programma {
+  width: 320px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+.programma:hover {
+  transform: scale(1.05);
+}
+
+.programma img {
+  width: 320px;
+  height: 240px;
+  object-fit: cover;
+}
+.programma-date {
+  font-size: 22px;
+  margin-top: 20px;
+}
+.programma h3 {
+  margin-top: 10px;
+}
+.programma p {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-top: 10px;
+}
+
+.doroga {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.doroga img {
+  margin: 20px auto;
+  width: 600px;
+}
+
+.doroga a {
+  display: block;
+
+  color: rgb(254, 226, 43);
+}
+
+.kontakty {
+  margin-top: 100px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.kontakty-list {
+  margin: 60px auto;
+  width: 1000px;
+}
+.kontakty-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.kontakty-item p {
+  font-size: 22px;
+}
+.kontakty-item img {
+  width: 60px;
+  margin: 0 15px 0 0;
+}
+.kontakty-note {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #ff0000;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+  background-color: #3f0e0e;
+  z-index: 10;
+}
+.nav a {
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(254, 226, 43);
+}
+.nav a:hover {
+  color: #ff0000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.istoria1 img {
+  width: 320px;
+  height: 320px;
+}

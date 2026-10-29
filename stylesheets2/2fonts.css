@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "CoFo Kak Trial";
+  src: url("../fonts2/CoFoKak-Medium-Trial.otf") format("otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "PTSans-Regular";
+  src: url("../fonts2/PTSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
